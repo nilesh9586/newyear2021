@@ -1,0 +1,59 @@
+
+@keyframes swing {
+  0%, 100% { transform: rotate(-30deg); }
+  20% {transform:scale(.95);}
+  50% { transform: rotate(30deg); }
+  80% {transform:scale(.95);}
+}
+
+#sweetlandia {
+  animation: swing 2s infinite ease-in-out;
+}
+
+.event{
+  margin:50px auto;
+ 
+  text-align:center;
+}
+.event-content .heading {
+  color:cadetblue;
+  animation: swing 2s infinite ease-in-out;
+}
+
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+  #sweetlandia {
+    animation: swing 2s infinite ease-in-out;
+  }
+  
+  .event{
+    margin:50px auto;
+   
+    text-align:center;
+  }
+  .event-content .heading {
+    color:cadetblue;
+    animation: swing 2s infinite ease-in-out;
+  }
+  
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  #sweetlandia {
+    animation: swing 2s infinite ease-in-out;
+  }
+  
+  .event{
+    margin:50px auto;
+   
+    text-align:center;
+  }
+  .event-content .heading {
+    color:cadetblue;
+    animation: swing 2s infinite ease-in-out;
+  }
+  
+  
+}
